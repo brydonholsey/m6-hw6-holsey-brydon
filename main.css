@@ -31,7 +31,8 @@ h2 {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container p {
@@ -42,6 +43,9 @@ h2 {
     color: purple;
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
+    width: 40px;
+    margin: 10px 0;
 }
 
 p:nth-child(1) {
@@ -54,4 +58,12 @@ p:nth-child(2) {
 
 p:nth-child(3) {
     background-color: lawngreen;
+}
+
+@media (min-width: 450px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
 }
