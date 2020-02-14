@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+header {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container p {
+    border: 5px solid purple;
+    padding: 50px;
+}
+
+p:nth-child(1) {
+    background-color: yellow;
+}
+
+p:nth-child(2) {
+    background-color: lightseagreen;
+}
+
+p:nth-child(3) {
+    background-color: lawngreen;
+}
