@@ -16,8 +16,7 @@ var elementOne = document.createElement('p');
 elementOne = 'oooh - so close, but no cigar';
 
 function onClickOne() {
-    // document.box[0].appendChild('elementOne');
-    console.log('test');
+    document.box[0].appendChild('elementOne');
 };
 
 document.box.addEventListener('click', onClickOne);
