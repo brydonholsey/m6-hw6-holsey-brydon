@@ -3,3 +3,5 @@
 help with drop shadow: https://www.w3schools.com/css/css3_shadows.asp
 help with nth-child: https://www.w3schools.com/cssref/sel_nth-child.asp
 help with flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+JavaScript Help: 
+https://www.w3schools.com/jsref/event_onmouseover.asp
