@@ -9,8 +9,6 @@ for (i = 0; i < box.length; i++) {
     box[i].addEventListener('mouseleave', bgColor);
 };
 
-//cannot figure out why the above is not working
-
 
 var elementOne = document.createElement('p');
 elementOne = 'oooh - so close, but no cigar';
@@ -29,3 +27,4 @@ document.box[0].addEventListener('click', onClick);
 document.box[1].addEventListener('click', onClick);
 document.box[2].addEventListener('click', onClick);
 
+//cannot figure out why the above is not working
