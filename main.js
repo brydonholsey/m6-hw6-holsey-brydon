@@ -28,3 +28,16 @@ document.box[1].addEventListener('click', onClick);
 document.box[2].addEventListener('click', onClick);
 
 //cannot figure out why the above is not working
+
+//Trigger for hover
+var buttonClick = document.getElementsByClassName('hidden');
+
+
+function showButton() {
+    this.children[1].classList.toggle('show'); 
+}
+
+// li, li, li, li
+for (i = 0; i < navLinks.length; i++) {
+    buttonClick[i].addEventListener('click', showButton);
+}
